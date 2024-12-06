@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = "https://drive.google.com/file/d/1KwoW5uTW2aUEoi14CnM6JGQatup_5aAf/view?usp=sharingf";
+    const resumeUrl = "#";
     window.open(resumeUrl);
   };
 
@@ -37,7 +37,7 @@ const Navbar = () => {
         </li>
       ))}
       <li className={`text-${isSecondary ? "secondary" : "white"} hover:text-white text-[20px] font-medium cursor-pointer`}>
-        <button onClick={toggleResume}>Resume</button>
+        <button onClick={toggleResume}>Support Us</button>
       </li>
     </ul>
   );
