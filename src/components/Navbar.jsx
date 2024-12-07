@@ -54,7 +54,6 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={"https://lohitcdn.blob.core.windows.net/portfoliocdn/Etc/logo.svg"} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
               Project&nbsp;
               <span className="sm:block hidden">Evidence</span>
